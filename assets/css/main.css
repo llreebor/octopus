@@ -12,6 +12,7 @@
   --color-text: #1f1f41;
   --color-subtext: #11143b;
   --color-lightgray: #757575;
+  --color-brown: #392c3a;
   --color-gray: #6e6e6e;
   --background-gradient-pink: linear-gradient(180deg, #feefff 0%, #fff 66.3%);
   --background-gradient-pink-light: linear-gradient(
@@ -510,6 +511,7 @@ h5 {
   max-width: 768px;
   margin: 0 auto;
   text-align: center;
+  color: #392c3a;
 }
 .cleaning {
   max-width: 977px;
@@ -586,6 +588,9 @@ h5 {
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
+.why__title {
+  color: var(--color-black);
+}
 .why__title span {
   color: var(--color-purple);
 }
@@ -605,6 +610,10 @@ h5 {
   max-width: 571px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
+}
+.faq__subtitle {
+  color: var(--color-subtext);
   text-align: center;
 }
 .accordion {
@@ -711,6 +720,7 @@ h5 {
 }
 .choose__title {
   line-height: 110%;
+  color: var(--color-black);
 }
 .choose__list {
   margin-top: 32px;
@@ -748,6 +758,7 @@ h5 {
 /* Section Testimonials */
 .testimonials__title {
   text-align: center;
+  color: var(--color-black);
   span {
     color: var(--color-purple);
   }
