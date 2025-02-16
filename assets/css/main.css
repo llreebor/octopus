@@ -422,7 +422,7 @@ h5 {
   }
 }
 .hero__item {
-  max-width: 800px;
+  max-width: 798px;
   width: 100%;
   @media (width <= 768px) {
     max-width: 100%;
